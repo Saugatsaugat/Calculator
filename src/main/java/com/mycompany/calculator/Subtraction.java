@@ -9,5 +9,9 @@ package com.mycompany.calculator;
  * @author saugat
  */
 public class Subtraction {
-    
+
+    public void sub(int x, int y) {
+        int result = x - y;
+        System.out.println("Diff of " + x + " and " + y + " : " + result);
+    }
 }

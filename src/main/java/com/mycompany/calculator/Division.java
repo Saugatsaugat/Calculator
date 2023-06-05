@@ -9,5 +9,9 @@ package com.mycompany.calculator;
  * @author next
  */
 public class Division {
-    
+
+    public void div(int x, int y) {
+        int result = x / y;
+        System.out.println("Diff of " + x + " and " + y + " : " + result);
+    }
 }

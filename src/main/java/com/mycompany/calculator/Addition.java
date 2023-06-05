@@ -9,5 +9,9 @@ package com.mycompany.calculator;
  * @author saugat
  */
 public class Addition {
-    
+
+    public void add(int x, int y) {
+        int result = x + y;
+        System.out.println("Sum of " + x + " and " + y + " : " + result);
+    }
 }
